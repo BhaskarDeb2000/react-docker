@@ -41,13 +41,13 @@ docker push bhaskardeb120/react-docker:v1.0.0
 To run the container with a custom name:
 
 ```sh
-docker run --name react-app -p 3000:3000 bhaskardeb120/my-app:$VERSION
+docker run --name react-app -p 3000:3000 bhaskardeb120/react-docker:v1.0.0
 ```
 
 For detached mode (running in the background):
 
 ```sh
-docker run -d --name react-app -p 3000:3000 bhaskardeb120/my-app:$VERSION
+docker run -d --name react-app -p 3000:3000 bhaskardeb120/react-docker:v1.0.0
 ```
 
 ## Managing Containers
